@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>مصطفى رحيم فندي | Mustafa Rahim Fendi – مدرس حاسوب ومطور برمجيات – النجف، العراق</title>
+<meta name="description" content="مصطفى رحيم فندي: مدرس حاسوب ومطور برمجيات وتطبيقات من النجف، العراق، ومؤلف كتب في البرمجة وأمن المعلومات وقواعد البيانات. Mustafa Rahim Fendi: computer instructor, software developer and author in Najaf, Iraq.">
+<meta name="author" content="مصطفى رحيم فندي / Mustafa Rahim Fendi">
+<meta name="keywords" content="مصطفى رحيم فندي, Mustafa Rahim Fendi, Mustafa Rahim Fandi, مدرس حاسوب النجف, مطور برمجيات العراق, computer instructor Najaf, software developer Iraq, الأمن السيبراني, الذكاء الاصطناعي, الجامعة المستنصرية">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#0F2547">
+
+<!-- بعد الرفع: أضف الرابط الحقيقي لموقعك هنا / After deploying, add your real URL: -->
+<!-- <link rel="canonical" href="https://YOUR-SITE.vercel.app/"> -->
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="مصطفى رحيم فندي | Mustafa Rahim Fendi">
+<meta property="og:description" content="مدرس حاسوب ومطور برمجيات وتطبيقات – النجف، العراق. Computer instructor and software developer – Najaf, Iraq.">
+<meta property="og:locale" content="ar_IQ">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "مصطفى رحيم فندي",
+  "alternateName": ["Mustafa Rahim Fendi", "Mustafa Rahim Fandi", "مصطفى رحيم"],
+  "jobTitle": "مدرس حاسوب ومطور برمجيات وتطبيقات / Computer Instructor and Software Developer",
+  "description": "Computer instructor, software and application developer and author from Najaf, Iraq, focused on educational technology, cybersecurity and artificial intelligence.",
+  "address": { "@type": "PostalAddress", "addressLocality": "النجف / Najaf", "addressCountry": "IQ" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "الجامعة المستنصرية / Mustansiriyah University" },
+  "knowsAbout": ["الأمن السيبراني", "Cybersecurity", "الذكاء الاصطناعي", "Artificial Intelligence", "التكنولوجيا التعليمية", "Educational Technology", "Python", "Delphi", "VB.NET", "C#", "ADO.NET", "Database Management Systems", "أمن المعلومات"],
+  "sameAs": [
+    "https://www.linkedin.com/in/mustafa-rahim-fandi-2b5ba52a8",
+    "https://dev.to/mustafa_rahimfendi_99884",
+    "https://m-mns.vercel.app",
+    "https://m-hook.vercel.app",
+    "https://cov-pneumo-ai.vercel.app",
+    "https://sms-weld.vercel.app",
+    "https://m-hack.vercel.app",
+    "https://ecl-iraq.vercel.app"
+  ]
+}
+</script>
+
+<style>
+:root{
+  --ink:#10233F;
+  --lapis:#0F2547;
+  --lapis-2:#1F3F7A;
+  --turq:#1FA39A;
+  --turq-soft:#7FD6CF;
+  --saffron:#E3A03A;
+  --bg:#EDF1F5;
+  --panel:#FFFFFF;
+  --line:#C9D4E0;
+  --muted:#4B5D75;
+  --font-display:"Reem Kufi","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --font-body:"IBM Plex Sans Arabic",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --ink:#E6ECF5;
+    --bg:#0B1830;
+    --panel:#12264A;
+    --line:#2A4272;
+    --muted:#A4B4CC;
+    --lapis-2:#8FB0EE;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font-body);font-size:1.0625rem;line-height:1.8;
+  -webkit-font-smoothing:antialiased;
+}
+body[data-lang="ar"] [lang="en"]{display:none}
+body[data-lang="en"] [lang="ar"]{display:none}
+body[data-lang="en"]{line-height:1.65}
+a{color:inherit}
+a:focus-visible,button:focus-visible{outline:3px solid var(--saffron);outline-offset:3px;border-radius:4px}
+.wrap{max-width:68rem;margin-inline:auto;padding-inline:1.25rem}
+
+/* top bar */
+.bar{position:sticky;top:0;z-index:10;background:var(--lapis);color:#fff;border-bottom:1px solid rgba(255,255,255,.12)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.5rem}
+.bar nav{display:flex;gap:1.25rem;overflow-x:auto;scrollbar-width:none}
+.bar nav a{color:#D5E0F2;text-decoration:none;font-size:.95rem;white-space:nowrap}
+.bar nav a:hover{color:#fff}
+.langbtn{
+  font:inherit;font-weight:600;font-size:.9rem;cursor:pointer;
+  background:transparent;color:#fff;border:1.5px solid var(--turq-soft);
+  padding:.25rem .9rem;border-radius:999px;flex:none;
+}
+.langbtn:hover{background:var(--turq);border-color:var(--turq)}
+
+/* hero */
+.hero{background:var(--lapis);color:#fff;position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:2rem;padding-block:clamp(3rem,8vw,6.5rem)}
+.hero h1{
+  font-family:var(--font-display);font-weight:700;margin:0;
+  font-size:clamp(2.6rem,7.5vw,5.2rem);line-height:1.15;
+}
+.hero h1 .sub{display:block;font-weight:500;font-size:.42em;color:var(--turq-soft);margin-top:.5rem;letter-spacing:.01em}
+.hero p.role{font-size:1.25rem;margin:1.5rem 0 0;color:#DCE6F5;max-width:34rem}
+.hero .loc{margin:.5rem 0 0;color:var(--turq-soft)}
+.cta{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:2rem}
+.btn{
+  display:inline-block;text-decoration:none;font-weight:600;
+  padding:.65rem 1.4rem;border-radius:.5rem;border:1.5px solid var(--turq-soft);color:#fff;
+}
+.btn:hover{background:rgba(255,255,255,.1)}
+.btn.main{background:var(--saffron);border-color:var(--saffron);color:#1B1405}
+.btn.main:hover{background:#F0B04F}
+.star{width:100%;max-width:26rem;justify-self:center;display:block}
+.star polygon,.star circle{fill:none;stroke:var(--turq-soft);stroke-width:1.4;stroke-linejoin:round}
+.star .s2{stroke:var(--saffron)}
+.star .s3{stroke:#fff;opacity:.55}
+.star .s4{stroke:var(--turq);opacity:.9}
+.star polygon{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.6s ease-out .2s forwards}
+.star .s2{animation-delay:.6s}
+.star .s3{animation-delay:1s}
+.star .s4{animation-delay:1.4s}
+@keyframes draw{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){
+  .star polygon{animation:none;stroke-dashoffset:0}
+  html{scroll-behavior:auto}
+}
+
+/* sections */
+section.block{padding-block:clamp(2.5rem,6vw,4.5rem);border-bottom:1px solid var(--line)}
+section.block:last-of-type{border-bottom:0}
+.block h2{
+  font-family:var(--font-display);font-weight:700;margin:0 0 1.5rem;
+  font-size:clamp(1.7rem,4vw,2.4rem);line-height:1.25;color:var(--ink);
+}
+.block h2::after{content:"";display:block;width:3.5rem;height:4px;background:var(--turq);margin-top:.6rem;border-radius:2px}
+.lead{max-width:44rem;font-size:1.15rem;margin:0}
+
+/* about + facts */
+.about{display:grid;grid-template-columns:1.2fr .8fr;gap:2.5rem}
+dl.facts{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.6rem 1.25rem;align-content:start;border-inline-start:4px solid var(--saffron);padding-inline-start:1.25rem}
+dl.facts dt{font-weight:600;color:var(--lapis-2)}
+dl.facts dd{margin:0}
+
+/* fields */
+.fields{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.field h3{margin:0 0 .35rem;font-family:var(--font-display);font-size:1.35rem;color:var(--lapis-2)}
+.field p{margin:0;color:var(--muted)}
+.field{border-top:4px solid var(--turq);padding-top:1rem}
+.field:nth-child(2){border-top-color:var(--saffron)}
+.field:nth-child(3){border-top-color:var(--lapis-2)}
+
+/* books */
+.books{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.books li{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.5rem 1.5rem;padding:1rem 0;border-bottom:1px solid var(--line)}
+.books .t{font-family:var(--font-display);font-size:1.4rem;font-weight:500;direction:ltr;unicode-bidi:isolate}
+.books .t.ar{direction:rtl}
+.books .src{display:flex;gap:1rem;font-size:.95rem}
+.books a,.links a,.sites a,.contact a.lnk{color:var(--lapis-2);text-underline-offset:.25em;text-decoration-thickness:1.5px}
+.books a:hover,.links a:hover,.sites a:hover{color:var(--turq)}
+
+/* projects */
+.projects{display:grid;grid-template-columns:1.3fr 1fr;gap:1.5rem}
+.proj{background:var(--lapis);color:#fff;padding:1.75rem;border-radius:.75rem}
+.proj.alt{background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+.proj h3{margin:0 0 .5rem;font-family:var(--font-display);font-size:1.5rem}
+.proj p{margin:0 0 1rem;color:inherit;opacity:.9}
+.proj a{color:var(--saffron);font-weight:600}
+.proj.alt a{color:var(--lapis-2)}
+
+/* sites */
+.sites{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:0 2.5rem}
+.sites li{padding:.8rem 0;border-bottom:1px solid var(--line);direction:ltr;text-align:start;unicode-bidi:isolate;font-size:1.05rem;word-break:break-all}
+body[data-lang="ar"] .sites li{text-align:right}
+
+/* contact */
+.contact{display:flex;flex-wrap:wrap;gap:1rem}
+.contact .btn{border-color:var(--lapis-2);color:var(--lapis-2)}
+.contact .btn:hover{background:var(--lapis-2);color:#fff}
+.links{margin:2rem 0 0;padding:0;list-style:none;display:grid;gap:.4rem}
+.links h3{font-family:var(--font-display);font-size:1.25rem;margin:2rem 0 .5rem}
+
+/* keywords + footer */
+.kw{color:var(--muted);font-size:.98rem;max-width:52rem;margin:0}
+footer{background:var(--lapis);color:#C9D6EC;padding-block:1.75rem;text-align:center;font-size:.95rem}
+
+@media (max-width:52rem){
+  .hero .wrap,.about,.projects{grid-template-columns:1fr}
+  .star{max-width:15rem;order:-1}
+  .fields{grid-template-columns:1fr}
+  .sites{grid-template-columns:1fr}
+  .bar nav{display:none}
+}
+</style>
+</head>
+
+<body data-lang="ar">
+
+<header class="bar">
+  <div class="wrap">
+    <nav aria-label="Sections">
+      <a href="#about"><span lang="ar">نبذة</span><span lang="en">About</span></a>
+      <a href="#fields"><span lang="ar">المجالات</span><span lang="en">Fields</span></a>
+      <a href="#books"><span lang="ar">المؤلفات</span><span lang="en">Books</span></a>
+      <a href="#projects"><span lang="ar">المشاريع</span><span lang="en">Projects</span></a>
+      <a href="#sites"><span lang="ar">المواقع</span><span lang="en">Websites</span></a>
+      <a href="#contact"><span lang="ar">التواصل</span><span lang="en">Contact</span></a>
+    </nav>
+    <button class="langbtn" id="langbtn" type="button" aria-label="Switch language">English</button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <h1>
+        <span lang="ar">مصطفى رحيم فندي<span class="sub">Mustafa Rahim Fendi</span></span>
+        <span lang="en">Mustafa Rahim Fendi<span class="sub">مصطفى رحيم فندي</span></span>
+      </h1>
+      <p class="role">
+        <span lang="ar">مدرس حاسوب، ومطور برمجيات وتطبيقات، ومؤلف كتب في البرمجة وأمن المعلومات وقواعد البيانات.</span>
+        <span lang="en">Computer instructor, software and application developer, and author of books on programming, information security and databases.</span>
+      </p>
+      <p class="loc">
+        <span lang="ar">النجف، العراق</span>
+        <span lang="en">Najaf, Iraq</span>
+      </p>
+      <div class="cta">
+        <a class="btn main" href="#books"><span lang="ar">تصفح المؤلفات</span><span lang="en">Browse books</span></a>
+        <a class="btn" href="#contact"><span lang="ar">تواصل معي</span><span lang="en">Get in touch</span></a>
+      </div>
+    </div>
+    <svg class="star" viewBox="0 0 400 400" role="img" aria-label="Eight-pointed star">
+      <polygon pathLength="1" points="60,60 340,60 340,340 60,340"/>
+      <polygon pathLength="1" points="200,2.9 397.1,200 200,397.1 2.9,200"/>
+      <polygon class="s2" pathLength="1" points="95,95 305,95 305,305 95,305"/>
+      <polygon class="s2" pathLength="1" points="200,51.5 348.5,200 200,348.5 51.5,200"/>
+      <polygon class="s3" pathLength="1" points="130,130 270,130 270,270 130,270"/>
+      <polygon class="s3" pathLength="1" points="200,102 298,200 200,298 102,200"/>
+      <polygon class="s4" pathLength="1" points="168,168 232,168 232,232 168,232"/>
+    </svg>
+  </div>
+</section>
+
+<div class="wrap">
+
+<section class="block" id="about">
+  <h2><span lang="ar">من هو مصطفى رحيم فندي؟</span><span lang="en">Who is Mustafa Rahim Fendi?</span></h2>
+  <div class="about">
+    <p class="lead">
+      <span lang="ar"><strong>مصطفى رحيم فندي</strong> مدرس حاسوب ومطور برمجيات وتطبيقات من <strong>النجف – العراق</strong>، حاصل على بكالوريوس تربية وعلوم الحاسبات من <strong>الجامعة المستنصرية</strong>. يهتم بدمج التعليم بالتكنولوجيا عبر بناء تطبيقات وأنظمة تساعد الطلبة على التعلّم، وله مؤلفات في البرمجة وقواعد البيانات وأمن المعلومات.</span>
+      <span lang="en"><strong>Mustafa Rahim Fendi</strong> (also written <em>Mustafa Rahim Fandi</em>) is a computer instructor and software and application developer based in <strong>Najaf, Iraq</strong>. He holds a Bachelor's degree in Education and Computer Science from <strong>Mustansiriyah University</strong>. His work focuses on integrating education with technology by building applications and systems that help students learn, and he is the author of several books on programming, databases and information security.</span>
+    </p>
+    <dl class="facts">
+      <dt><span lang="ar">الاسم</span><span lang="en">Name</span></dt>
+      <dd><span lang="ar">مصطفى رحيم فندي</span><span lang="en">Mustafa Rahim Fendi</span></dd>
+      <dt><span lang="ar">المهنة</span><span lang="en">Profession</span></dt>
+      <dd><span lang="ar">مدرس حاسوب</span><span lang="en">Computer instructor</span></dd>
+      <dt><span lang="ar">الاختصاص</span><span lang="en">Specialty</span></dt>
+      <dd><span lang="ar">مطور برمجيات وتطبيقات</span><span lang="en">Software and application developer</span></dd>
+      <dt><span lang="ar">السكن</span><span lang="en">Location</span></dt>
+      <dd><span lang="ar">النجف، العراق</span><span lang="en">Najaf, Iraq</span></dd>
+      <dt><span lang="ar">الشهادة</span><span lang="en">Degree</span></dt>
+      <dd><span lang="ar">بكالوريوس تربية وعلوم الحاسبات، الجامعة المستنصرية</span><span lang="en">B.Sc. Education and Computer Science, Mustansiriyah University</span></dd>
+    </dl>
+  </div>
+</section>
+
+<section class="block" id="fields">
+  <h2><span lang="ar">المجالات والاهتمامات</span><span lang="en">Fields and interests</span></h2>
+  <div class="fields">
+    <div class="field">
+      <h3><span lang="ar">الأمن السيبراني</span><span lang="en">Cybersecurity</span></h3>
+      <p><span lang="ar">أمن المعلومات وحماية الأنظمة.</span><span lang="en">Information security and protecting systems.</span></p>
+    </div>
+    <div class="field">
+      <h3><span lang="ar">الذكاء الاصطناعي</span><span lang="en">Artificial intelligence</span></h3>
+      <p><span lang="ar">تطبيقات الذكاء الاصطناعي في البرمجيات والتعليم.</span><span lang="en">AI applications in software and education.</span></p>
+    </div>
+    <div class="field">
+      <h3><span lang="ar">التكنولوجيا التعليمية</span><span lang="en">Educational technology</span></h3>
+      <p><span lang="ar">دمج التعليم بالتكنولوجيا وإنشاء تطبيقات تساعد الطلبة على التعلم.</span><span lang="en">Integrating education with technology and building apps that help students learn.</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="books">
+  <h2><span lang="ar">المؤلفات</span><span lang="en">Publications</span></h2>
+  <ul class="books">
+    <li>
+      <span class="t">Anaconda in Python</span>
+      <span class="src">
+        <a href="https://uomustansiriyah.edu.iq/web_article.php?post_id=4856_9&amp;lang=ar" rel="noopener"><span lang="ar">المصدر ١</span><span lang="en">Source 1</span></a>
+        <a href="https://uomustansiriyah.edu.iq/web_article.php?post_id=1172_174&amp;lang=ar" rel="noopener"><span lang="ar">المصدر ٢</span><span lang="en">Source 2</span></a>
+      </span>
+    </li>
+    <li><span class="t">Delphi &amp; Delphi GUI</span></li>
+    <li><span class="t">VB.NET &amp; VB.NET GUI</span></li>
+    <li>
+      <span class="t ar"><span lang="ar">أمن المعلومات والقرصنة</span><span lang="en" style="direction:ltr">Information Security and Hacking</span></span>
+    </li>
+    <li><span class="t">ADO.NET</span></li>
+    <li><span class="t">CSharp ADO.NET</span></li>
+    <li>
+      <span class="t">Database Management System</span>
+      <span class="src">
+        <a href="https://uomustansiriyah.edu.iq/web_article.php?post_id=1189_174&amp;lang=ar" rel="noopener"><span lang="ar">المصدر</span><span lang="en">Source</span></a>
+      </span>
+    </li>
+  </ul>
+  <p style="margin-top:1.25rem">
+    <a class="lnk" style="color:var(--lapis-2)" href="https://www.noor-book.com/%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A7%D8%AA-%D9%83%D8%AA%D8%A8-%D9%85%D8%B5%D8%B7%D9%81%D9%89-%D8%B1%D8%AD%D9%8A%D9%85-%D9%81%D9%86%D8%AF%D9%8A" rel="noopener">
+      <span lang="ar">مراجعات كتب مصطفى رحيم فندي على نور بوك</span><span lang="en">Book reviews by Mustafa Rahim Fendi on Noor Book</span>
+    </a>
+  </p>
+</section>
+
+<section class="block" id="projects">
+  <h2><span lang="ar">الأعمال والمشاريع</span><span lang="en">Projects</span></h2>
+  <div class="projects">
+    <article class="proj">
+      <h3><span lang="ar">SMS – نظام إدارة المدرسة</span><span lang="en">SMS – School Management System</span></h3>
+      <p><span lang="ar">نظام متكامل ومعقد لإدارة المدرسة.</span><span lang="en">A complex, full-featured system for managing a school.</span></p>
+      <p>
+        <a href="https://sms-weld.vercel.app" rel="noopener"><span lang="ar">فتح النظام</span><span lang="en">Open the system</span></a>
+        &nbsp;·&nbsp;
+        <a href="https://sms-weld.vercel.app/system-guide.pdf" rel="noopener"><span lang="ar">دليل النظام (PDF)</span><span lang="en">System guide (PDF)</span></a>
+      </p>
+    </article>
+    <article class="proj alt">
+      <h3><span lang="ar">نظام إدارة مخازن كلية التربية</span><span lang="en">College of Education warehouse system</span></h3>
+      <p><span lang="ar">الجامعة المستنصرية، أُنجز كجزء من بحث التخرج.</span><span lang="en">Mustansiriyah University, built as part of the graduation research project.</span></p>
+    </article>
+  </div>
+</section>
+
+<section class="block" id="sites">
+  <h2><span lang="ar">المواقع الإلكترونية</span><span lang="en">Websites</span></h2>
+  <ul class="sites">
+    <li><a href="https://m-mns.vercel.app" rel="noopener">m-mns.vercel.app</a></li>
+    <li><a href="https://m-hook.vercel.app" rel="noopener">m-hook.vercel.app</a></li>
+    <li><a href="https://cov-pneumo-ai.vercel.app" rel="noopener">cov-pneumo-ai.vercel.app</a></li>
+    <li><a href="https://sms-weld.vercel.app" rel="noopener">sms-weld.vercel.app</a></li>
+    <li><a href="https://m-hack.vercel.app" rel="noopener">m-hack.vercel.app</a></li>
+    <li><a href="https://ecl-iraq.vercel.app" rel="noopener">ecl-iraq.vercel.app</a></li>
+  </ul>
+</section>
+
+<section class="block" id="contact">
+  <h2><span lang="ar">التواصل</span><span lang="en">Contact</span></h2>
+  <div class="contact">
+    <a class="btn" href="https://www.linkedin.com/in/mustafa-rahim-fandi-2b5ba52a8" rel="me noopener">LinkedIn</a>
+    <a class="btn" href="https://dev.to/mustafa_rahimfendi_99884" rel="me noopener">DEV Community</a>
+  </div>
+
+  <div class="links">
+    <h3><span lang="ar">روابط ومصادر أخرى</span><span lang="en">Other links and references</span></h3>
+    <a href="https://uomustansiriyah.edu.iq/web_article.php?post_id=4856_9&amp;lang=ar" rel="noopener"><span lang="ar">صفحة على موقع الجامعة المستنصرية (١)</span><span lang="en">Mustansiriyah University page (1)</span></a>
+    <a href="https://uomustansiriyah.edu.iq/web_article.php?post_id=1189_174&amp;lang=ar" rel="noopener"><span lang="ar">صفحة على موقع الجامعة المستنصرية (٢)</span><span lang="en">Mustansiriyah University page (2)</span></a>
+    <a href="https://uomustansiriyah.edu.iq/web_article.php?post_id=1172_174&amp;lang=ar" rel="noopener"><span lang="ar">صفحة على موقع الجامعة المستنصرية (٣)</span><span lang="en">Mustansiriyah University page (3)</span></a>
+    <a href="https://uomustansiriyah.edu.iq/web_article.php?&amp;post_id=6895:221&amp;lang=ar" rel="noopener"><span lang="ar">صفحة على موقع الجامعة المستنصرية (٤)</span><span lang="en">Mustansiriyah University page (4)</span></a>
+  </div>
+</section>
+
+<section class="block" id="keywords">
+  <h2><span lang="ar">كلمات مفتاحية</span><span lang="en">Keywords</span></h2>
+  <p class="kw">
+    <span lang="ar">مصطفى رحيم فندي، مصطفى رحيم، مدرس حاسوب في النجف، مطور برمجيات العراق، مطور تطبيقات النجف، كتب برمجة بالعربية، كتاب أمن المعلومات والقرصنة، كتاب Delphi بالعربي، كتاب VB.NET بالعربي، كتاب ADO.NET، كتاب قواعد البيانات، كتاب Anaconda بايثون، الجامعة المستنصرية، نظام إدارة المدرسة، تطبيقات تعليمية، الأمن السيبراني العراق، الذكاء الاصطناعي العراق.</span>
+    <span lang="en">Mustafa Rahim Fendi, Mustafa Rahim Fandi, computer instructor Najaf, software developer Iraq, application developer Najaf Iraq, Iraqi programming author, Anaconda in Python book, Delphi GUI book, VB.NET GUI book, ADO.NET book, C# ADO.NET, Database Management System book, information security and hacking book, Mustansiriyah University, school management system, educational technology Iraq, cybersecurity Iraq, artificial intelligence Iraq.</span>
+  </p>
+</section>
+
+</div>
+</main>
+
+<footer>© Mustafa Rahim Fendi · مصطفى رحيم فندي</footer>
+
+<script>
+(function(){
+  var body=document.body, html=document.documentElement, btn=document.getElementById('langbtn');
+  function set(l){
+    body.setAttribute('data-lang',l);
+    html.lang=l; html.dir=(l==='ar')?'rtl':'ltr';
+    btn.textContent=(l==='ar')?'English':'العربية';
+    try{localStorage.setItem('lang',l)}catch(e){}
+  }
+  var saved=null; try{saved=localStorage.getItem('lang')}catch(e){}
+  if(saved==='en'||saved==='ar'){set(saved)}
+  btn.addEventListener('click',function(){set(body.getAttribute('data-lang')==='ar'?'en':'ar')});
+})();
+</script>
+</body>
+</html>
