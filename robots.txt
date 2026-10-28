@@ -1,0 +1,15 @@
+# robots.txt for https://mustafa211r.github.io/
+# آخر تحديث: 2026-10-28
+
+# السماح لجميع محركات البحث بفهرسة الموقع
+User-agent: *
+Allow: /
+
+# منع فهرسة الملفات والمجلدات غير المرغوب فيها
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /404.html
+
+# الإشارة إلى ملف الخريطة
+Sitemap: https://mustafa211r.github.io/sitemap.xml
